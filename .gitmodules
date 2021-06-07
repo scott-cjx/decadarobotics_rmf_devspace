@@ -1,17 +1,11 @@
 [submodule "src/free_fleet"]
 	path = src/free_fleet
 	url = https://github.com/open-rmf/free_fleet
-[submodule "src/rmf_internal_msgs"]
-	path = src/rmf_internal_msgs
-	url = https://github.com/open-rmf/rmf_internal_msgs
-[submodule "src/decadarobotics_rmf_demos"]
-	path = src/decadarobotics_rmf_demos
-	url = https://github.com/scott-cjx/decadarobotics_rmf_demos.git
-[submodule "src/caato"]
-	path = src/caato
-	url = https://github.com/siot-decada-robotics/caato.git
-	branch = scott-devel
 [submodule "src/adhoc-simulations"]
 	path = src/adhoc-simulations
 	url = git@github.com:siot-decada-robotics/adhoc-simulations.git
 	branch = devel
+[submodule "src/rmf-packages"]
+  path = src/rmf-packages
+  url = https://github.com/siot-decada-robotics/rmf-packages.git
+  branch = rmf_demos
