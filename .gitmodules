@@ -1,11 +1,79 @@
+[submodule "src/adhoc-simulations"]
+	path = src/adhoc-simulations
+	url = https://github.com/siot-decada-robotics/adhoc-simulations.git
+	branch = devel
+[submodule "src/decadarobotics_rmf_demos"]
+	path = src/decadarobotics_rmf_demos
+	url = https://github.com/scott-cjx/decadarobotics_rmf_demos.git
+
 [submodule "src/free_fleet"]
 	path = src/free_fleet
 	url = https://github.com/open-rmf/free_fleet
-[submodule "src/adhoc-simulations"]
-	path = src/adhoc-simulations
-	url = git@github.com:siot-decada-robotics/adhoc-simulations.git
-	branch = devel
-[submodule "src/rmf-packages"]
-  path = src/rmf-packages
-  url = https://github.com/siot-decada-robotics/rmf-packages.git
-  branch = rmf_demos
+
+# RMF Demos
+[submodule "src/rmf/rmf_battery"]
+	path = src/rmf/rmf_battery
+	url = https://github.com/open-rmf/rmf_battery.git
+	branch = main
+[submodule "src/rmf/rmf_internal_msgs"]
+	path = src/rmf/rmf_internal_msgs
+	url = https://github.com/open-rmf/rmf_internal_msgs.git
+	branch = main
+[submodule "src/rmf/rmf_ros2"]
+	path = src/rmf/rmf_ros2
+	url = https://github.com/open-rmf/rmf_ros2.git
+	branch = main
+[submodule "src/rmf/rmf_task"]
+	path = src/rmf/rmf_task
+	url = https://github.com/open-rmf/rmf_task.git
+	branch = main
+[submodule "src/rmf/rmf_traffic"]
+	path = src/rmf/rmf_traffic
+	url = https://github.com/open-rmf/rmf_traffic.git
+	branch = main
+[submodule "src/rmf/rmf_utils"]
+	path = src/rmf/rmf_utils
+	url = https://github.com/open-rmf/rmf_utils.git
+	branch = main
+[submodule "src/rmf/rmf_cmake_uncrustify"]
+	path = src/rmf/rmf_cmake_uncrustify
+	url = https://github.com/open-rmf/rmf_cmake_uncrustify.git
+	branch = main
+[submodule "src/rmf/ament_cmake_catch2"]
+	path = src/rmf/ament_cmake_catch2
+	url = https://github.com/open-rmf/ament_cmake_catch2.git
+	branch = main
+[submodule "src/rmf/rmf_visualization"]
+	path = src/rmf/rmf_visualization
+	url = https://github.com/open-rmf/rmf_visualization.git
+	branch = main
+[submodule "src/rmf/rmf_visualization_msgs"]
+	path = src/rmf/rmf_visualization_msgs
+	url = https://github.com/open-rmf/rmf_visualization_msgs.git
+	branch = main
+[submodule "src/rmf/rmf_building_map_msgs"]
+	path = src/rmf/rmf_building_map_msgs
+	url = https://github.com/open-rmf/rmf_building_map_msgs.git
+	branch = main
+[submodule "src/rmf/rmf_simulation"]
+	path = src/rmf/rmf_simulation
+	url = https://github.com/open-rmf/rmf_simulation.git
+	branch = main
+[submodule "src/rmf/rmf_traffic_editor"]
+	path = src/rmf/rmf_traffic_editor
+	url = https://github.com/open-rmf/rmf_traffic_editor.git
+	branch = main
+[submodule "src/demonstrations/rmf_demos"]
+	path = src/demonstrations/rmf_demos
+	url = https://github.com/open-rmf/rmf_demos.git
+	branch = main
+[submodule "src/thirdparty/ros_ign"]
+	path = src/thirdparty/ros_ign
+	url = https://github.com/osrf/ros_ign.git
+	branch = dashing
+[submodule "src/thirdparty/menge_vendor"]
+	path = src/thirdparty/menge_vendor
+	url = https://github.com/open-rmf/menge_vendor.git
+	branch = master
+
+
