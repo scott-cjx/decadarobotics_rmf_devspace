@@ -2,3 +2,7 @@ log/
 build/
 install/
 .vscode/
+
+# runtime adds
+web_server.log
+.rmf_schedule_node.yaml
